@@ -14,6 +14,7 @@ Himan source repository for reusable agent resources.
 
 ### Skills
 
+- `skill/himan-resource-manage@0.0.1`: Create, edit, validate, and publish Himan rule, command, or skill resources from project agent folders. Use when Codex needs to manage Himan resources with `himan create`, `himan dev`, project/global install target decisions, `himan publish`, lock-file verification, and a required Himan CLI version gate.
 - `skill/himan-skill-metadata@0.0.1`: Create or update Himan skill metadata. Use when Codex creates, edits, migrates, or audits a skill folder with SKILL.md and should also generate or refresh a matching himan.yaml file containing static analysis metadata such as content token estimates, hashes, dependencies, scripts, MCP tools, and generation details.
 <!-- himan:resources:end -->
 
