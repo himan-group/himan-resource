@@ -3,7 +3,6 @@
 Himan source repository for reusable agent resources.
 
 ## Resources
-
 <!-- himan:resources:start -->
 ### Rules
 
@@ -15,7 +14,7 @@ Himan source repository for reusable agent resources.
 
 ### Skills
 
-- No skill resources yet.
+- `skill/himan-skill-metadata@0.0.1`: Create or update Himan skill metadata. Use when Codex creates, edits, migrates, or audits a skill folder with SKILL.md and should also generate or refresh a matching himan.yaml file containing static analysis metadata such as content token estimates, hashes, dependencies, scripts, MCP tools, and generation details.
 <!-- himan:resources:end -->
 
 ## Usage
