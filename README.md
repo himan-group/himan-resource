@@ -6,16 +6,37 @@ Himan source repository for reusable agent resources.
 <!-- himan:resources:start -->
 ### Rules
 
-- No rule resources yet.
+No rule resources yet.
 
 ### Commands
 
-- No command resources yet.
+No command resources yet.
 
 ### Skills
 
-- `skill/himan-resource-manage@0.0.1`: Create, edit, validate, and publish Himan rule, command, or skill resources from project agent folders. Use when Codex needs to manage Himan resources with `himan create`, `himan dev`, project/global install target decisions, `himan publish`, lock-file verification, and a required Himan CLI version gate.
-- `skill/himan-skill-metadata@0.0.1`: Create or update Himan skill metadata. Use when Codex creates, edits, migrates, or audits a skill folder with SKILL.md and should also generate or refresh a matching himan.yaml file containing static analysis metadata such as content token estimates, hashes, dependencies, scripts, MCP tools, and generation details.
+#### Himan
+
+<table class="himan-resource-table" style="table-layout: fixed; width: 100%;" width="100%">
+  <thead>
+    <tr>
+      <th width="288">Resource</th>
+      <th width="112">Version</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="288"><code>himan-resource-manage</code></td>
+      <td width="112"><code>0.0.1</code></td>
+      <td>Create, edit, validate, and publish Himan rule, command, or skill resources from project agent folders. Use when Codex needs to manage Himan resources with `himan create`, `himan dev`, project/global install target decisions, `himan publish`, lock-file verification, and a required Himan CLI version gate.</td>
+    </tr>
+    <tr>
+      <td width="288"><code>himan-skill-metadata</code></td>
+      <td width="112"><code>0.0.1</code></td>
+      <td>Create or update Himan skill metadata. Use when Codex creates, edits, migrates, or audits a skill folder with SKILL.md and should also generate or refresh a matching himan.yaml file containing static analysis metadata such as content token estimates, hashes, dependencies, scripts, MCP tools, and generation details.</td>
+    </tr>
+  </tbody>
+</table>
 <!-- himan:resources:end -->
 
 ## Usage
