@@ -2,6 +2,14 @@
 
 All notable source-level resource changes are documented in this file.
 
+## [Unreleased]
+
+## [2026-05-26]
+
+### Added
+
+- Published `skill/common-readme-writer@0.0.1`.
+
 ## [2026-05-18]
 
 ### Added
