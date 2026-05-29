@@ -2,7 +2,59 @@
 
 Himan source repository for reusable agent resources.
 
+## Use With Himan
+
+<!-- himan:guide:start -->
+Use these resources with [@hi-man/himan](https://www.npmjs.com/package/@hi-man/himan). Install it with `npm install -g @hi-man/himan` or run it with `npx @hi-man/himan --help`.
+
+### 1. Bind source and set agent
+
+```bash
+himan source add team https://github.com/himan-group/himan-resource.git          # add the source to your local config
+himan source use team                       # switch the current default source
+himan agent use codex                       # set the current project's default agent
+```
+
+You can also bootstrap a new project in one step with `himan init <git_repo> --agent codex`.
+
+### 2. View available resources
+
+```bash
+himan list             # list all active resources in the current source
+himan list skill       # list only skill resources
+himan list --installed # list resources installed in the current project
+```
+
+### 3. Install and uninstall resources
+
+```bash
+himan install skill <name>              # install one resource into the current project
+himan install skill <name> -r           # install a skill with one dependency layer
+himan install skill <name> -r --depth 2 # install a skill with deeper dependencies
+himan install skill <name> -g           # install into user-level agent directories
+himan uninstall skill <name>            # remove a project install and update himan.lock
+himan uninstall skill <name> -g         # remove a user-level global install
+himan install                           # restore everything from the current himan.lock
+```
+
+### 4. Develop, publish, and archive resources
+
+Create new skills with your coding agent and the `himan-skill-metadata` skill, then use Himan to validate, publish, and manage them:
+
+```bash
+himan dev skill <name>                                                   # edit an installed resource in place
+himan publish skill <name> --patch                                       # publish a new patch version
+himan publish skill <name> -g                                            # publish and install globally
+himan resource archive skill <name> --reason "Replaced by another resource" # archive a source resource
+himan resource restore skill <name>                                      # restore an archived resource
+```
+
+- Resource versions are tracked by Git tags such as `rule/code-review@1.0.0`.
+- Source maintainers can refresh this README and `CHANGELOG.md` with `himan source init-docs --repair-history`.
+<!-- himan:guide:end -->
+
 ## Resources
+
 <!-- himan:resources:start -->
 ### Rules
 
@@ -66,71 +118,3 @@ No command resources yet.
 
 No config resources yet.
 <!-- himan:resources:end -->
-
-## Usage
-
-```bash
-himan source add team https://github.com/himan-group/himan-resource.git --alias team
-himan source alias default primary  # only needed when current default has no alias
-himan source use team
-himan list rule
-himan install rule <name>
-```
-
-## Maintenance
-
-- Add resources with `himan create <type> <name>`.
-- Publish resource versions with `himan publish <type> <name>`.
-- Record source-level changes in `CHANGELOG.md`.
-- Resource versions are tracked by Git tags such as `rule/code-review@1.0.0`.
-
-## Use With Himan
-
-<!-- himan:guide:start -->
-Use these resources with [@hi-man/himan](https://www.npmjs.com/package/@hi-man/himan). Install it with `npm install -g @hi-man/himan` or run it with `npx @hi-man/himan --help`.
-
-### 1. Bind source and set agent
-
-```bash
-himan source add team https://github.com/himan-group/himan-resource.git          # add the source to your local config
-himan source use team                       # switch the current default source
-himan agent use codex                       # set the current project's default agent
-```
-
-You can also bootstrap a new project in one step with `himan init <git_repo> --agent codex`.
-
-### 2. View available resources
-
-```bash
-himan list             # list all active resources in the current source
-himan list skill       # list only skill resources
-himan list --installed # list resources installed in the current project
-```
-
-### 3. Install and uninstall resources
-
-```bash
-himan install skill <name>              # install one resource into the current project
-himan install skill <name> -r           # install a skill with one dependency layer
-himan install skill <name> -r --depth 2 # install a skill with deeper dependencies
-himan install skill <name> -g           # install into user-level agent directories
-himan uninstall skill <name>            # remove a project install and update himan.lock
-himan uninstall skill <name> -g         # remove a user-level global install
-himan install                           # restore everything from the current himan.lock
-```
-
-### 4. Develop, publish, and archive resources
-
-Create new skills with your coding agent and the `himan-skill-metadata` skill, then use Himan to validate, publish, and manage them:
-
-```bash
-himan dev skill <name>                                                   # edit an installed resource in place
-himan publish skill <name> --patch                                       # publish a new patch version
-himan publish skill <name> -g                                            # publish and install globally
-himan resource archive skill <name> --reason "Replaced by another resource" # archive a source resource
-himan resource restore skill <name>                                      # restore an archived resource
-```
-
-- Resource versions are tracked by Git tags such as `rule/code-review@1.0.0`.
-- Source maintainers can refresh this README and `CHANGELOG.md` with `himan source init-docs --repair-history`.
-<!-- himan:guide:end -->
