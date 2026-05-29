@@ -3,7 +3,6 @@
 Himan source repository for reusable agent resources.
 
 ## Use With Himan
-
 <!-- himan:guide:start -->
 Use these resources with [@hi-man/himan](https://www.npmjs.com/package/@hi-man/himan). Install it with `npm install -g @hi-man/himan` or run it with `npx @hi-man/himan --help`.
 
@@ -54,7 +53,6 @@ himan resource restore skill <name>                                      # resto
 <!-- himan:guide:end -->
 
 ## Resources
-
 <!-- himan:resources:start -->
 ### Rules
 
@@ -100,16 +98,16 @@ No command resources yet.
   </thead>
   <tbody>
     <tr>
+      <td width="288"><code>himan-skill-metadata</code></td>
+      <td width="112"><code>0.0.2</code></td>
+      <td width="160"><code>9/10</code><br><small>创建/修改Skill时，自动补充himan规定的meta信息</small></td>
+      <td>Create or update Himan skill metadata. Use when Codex creates, edits, migrates, or audits a skill folder with SKILL.md and should also generate or refresh a matching himan.yaml file containing category and static analysis metadata such as content token estimates, hashes, dependencies, scripts, MCP tools, and generation details.</td>
+    </tr>
+    <tr>
       <td width="288"><code>himan-resource-manage</code></td>
       <td width="112"><code>0.0.1</code></td>
       <td width="160">-</td>
       <td>Create, edit, validate, and publish Himan rule, command, or skill resources from project agent folders. Use when Codex needs to manage Himan resources with `himan create`, `himan dev`, project/global install target decisions, `himan publish`, lock-file verification, and a required Himan CLI version gate.</td>
-    </tr>
-    <tr>
-      <td width="288"><code>himan-skill-metadata</code></td>
-      <td width="112"><code>0.0.1</code></td>
-      <td width="160">-</td>
-      <td>Create or update Himan skill metadata. Use when Codex creates, edits, migrates, or audits a skill folder with SKILL.md and should also generate or refresh a matching himan.yaml file containing static analysis metadata such as content token estimates, hashes, dependencies, scripts, MCP tools, and generation details.</td>
     </tr>
   </tbody>
 </table>

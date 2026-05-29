@@ -2,6 +2,14 @@
 
 All notable source-level resource changes are documented in this file.
 
+## [Unreleased]
+
+## [2026-05-29]
+
+### Changed
+
+- Published `skill/himan-skill-metadata@0.0.2`.
+
 ## [2026-05-26]
 
 ### Added
