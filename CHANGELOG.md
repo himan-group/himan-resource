@@ -2,8 +2,6 @@
 
 All notable source-level resource changes are documented in this file.
 
-## [Unreleased]
-
 ## [2026-05-26]
 
 ### Added
