@@ -89,6 +89,12 @@ No command resources yet.
       <td>Create clean local Git commits quickly from the current project changes without pushing. Use when the user asks Codex to commit code, generate a commit message and commit, split a large diff into logical commits, or simplify a Git commit workflow based on conversation context and project diffs.</td>
     </tr>
     <tr>
+      <td width="288"><code>common-issue-spec</code></td>
+      <td width="112"><code>0.0.1</code></td>
+      <td width="160">-</td>
+      <td>Turn vague issues, product requests, bug reports, or engineering tasks into a concise implementation spec before coding. Use when the request is underspecified, business-heavy, cross-file, or likely to require scope, acceptance criteria, references, assumptions, or validation steps.</td>
+    </tr>
+    <tr>
       <td width="288"><code>common-readme-writer</code></td>
       <td width="112"><code>0.0.1</code></td>
       <td width="160">-</td>
