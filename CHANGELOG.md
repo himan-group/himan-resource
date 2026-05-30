@@ -4,6 +4,12 @@ All notable source-level resource changes are documented in this file.
 
 ## [Unreleased]
 
+## [2026-05-30]
+
+### Added
+
+- Published `skill/common-dev-pattern@0.0.1`.
+
 ## [2026-05-29]
 
 ### Changed

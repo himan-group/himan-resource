@@ -77,6 +77,12 @@ No command resources yet.
   </thead>
   <tbody>
     <tr>
+      <td width="288"><code>common-dev-pattern</code></td>
+      <td width="112"><code>0.0.1</code></td>
+      <td width="160"><code>9/10</code><br><small>常用，约束Coding Agent不要乱改</small></td>
+      <td>Follow existing repository patterns for code changes and validate them before the final response. Use for nontrivial edits across pages, components, services, tests, build config, generated files, APIs, migrations, or integration code.</td>
+    </tr>
+    <tr>
       <td width="288"><code>common-readme-writer</code></td>
       <td width="112"><code>0.0.1</code></td>
       <td width="160">-</td>
