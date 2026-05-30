@@ -21,6 +21,7 @@ All notable source-level resource changes are documented in this file.
 
 ### Changed
 
+- Published `skill/common-issue-spec@0.0.4`.
 - Published `skill/common-issue-spec@0.0.3`.
 - Published `skill/common-issue-spec@0.0.2`.
 
