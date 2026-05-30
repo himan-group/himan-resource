@@ -95,6 +95,12 @@ No command resources yet.
       <td>Turn vague issues, product requests, bug reports, or engineering tasks into a concise implementation spec before coding. Use when the request is underspecified, business-heavy, cross-file, or likely to require scope, acceptance criteria, references, assumptions, or validation steps.</td>
     </tr>
     <tr>
+      <td width="288"><code>common-project-changelog</code></td>
+      <td width="112"><code>0.0.1</code></td>
+      <td width="160">-</td>
+      <td>Maintain project CHANGELOG.md and package version history correctly. Use for user-visible CLI behavior changes, new commands/options, direct CHANGELOG.md edits, moving Unreleased entries into a release, package version bumps, release notes, or changelog placement fixes.</td>
+    </tr>
+    <tr>
       <td width="288"><code>common-readme-writer</code></td>
       <td width="112"><code>0.0.1</code></td>
       <td width="160">-</td>
