@@ -113,6 +113,12 @@ No command resources yet.
       <td>Maintain project CHANGELOG.md and package version history correctly. Use for user-visible CLI behavior changes, new commands/options, direct CHANGELOG.md edits, moving Unreleased entries into a release, package version bumps, release notes, or changelog placement fixes.</td>
     </tr>
     <tr>
+      <td width="288"><code>common-project-mvp</code></td>
+      <td width="112"><code>0.0.1</code></td>
+      <td width="160">-</td>
+      <td>Create or update MVP planning docs from a blueprint and technical design. Use when Codex is asked to split MVP features, define priorities, dependencies, milestones, acceptance criteria, detailed implementation plans, delivery phases, or MVP definition of done.</td>
+    </tr>
+    <tr>
       <td width="288"><code>common-readme-writer</code></td>
       <td width="112"><code>0.0.1</code></td>
       <td width="160">-</td>

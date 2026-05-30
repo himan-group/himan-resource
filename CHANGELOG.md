@@ -8,6 +8,7 @@ All notable source-level resource changes are documented in this file.
 
 ### Added
 
+- Published `skill/common-project-mvp@0.0.1`.
 - Published `skill/common-project-blueprint@0.0.1`.
 - Published `skill/github-npm-publish@0.0.1`.
 - Published `skill/common-project-startup@0.0.1`.
