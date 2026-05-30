@@ -101,6 +101,12 @@ No command resources yet.
       <td>Turn vague issues, product requests, bug reports, or engineering tasks into a concise implementation spec before coding. Use when the request is underspecified, business-heavy, cross-file, or likely to require scope, acceptance criteria, references, assumptions, or validation steps.</td>
     </tr>
     <tr>
+      <td width="288"><code>common-project-blueprint</code></td>
+      <td width="112"><code>0.0.1</code></td>
+      <td width="160">-</td>
+      <td>Create or update project blueprint and user-facing README content for early-stage repositories. Use when Codex is asked to define project positioning, target users, goals, scope, non-goals, long-term vision, product description, or user-focused README/manual content from a project idea or rough notes.</td>
+    </tr>
+    <tr>
       <td width="288"><code>common-project-changelog</code></td>
       <td width="112"><code>0.0.1</code></td>
       <td width="160">-</td>
