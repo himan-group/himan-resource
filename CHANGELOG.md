@@ -8,6 +8,7 @@ All notable source-level resource changes are documented in this file.
 
 ### Added
 
+- Published `skill/common-git-commit@0.0.1`.
 - Published `skill/common-dev-pattern@0.0.1`.
 
 ## [2026-05-29]
