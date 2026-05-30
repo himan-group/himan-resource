@@ -15,6 +15,10 @@ All notable source-level resource changes are documented in this file.
 - Published `skill/common-git-commit@0.0.1`.
 - Published `skill/common-dev-pattern@0.0.1`.
 
+### Changed
+
+- Published `skill/common-issue-spec@0.0.2`.
+
 ## [2026-05-29]
 
 ### Changed
