@@ -130,6 +130,12 @@ No command resources yet.
       <td width="160">-</td>
       <td>Create, evaluate, or rewrite concise README.md files for npm CLI and GitHub projects. Use when Codex needs to improve project positioning, highlight differentiators, simplify onboarding, split long reference content into docs, or apply README best practices to command-line tools, developer tools, plugins, SDKs, and similar open source packages.</td>
     </tr>
+    <tr>
+      <td width="288"><code>common-sprint-autopilot</code></td>
+      <td width="112"><code>0.0.1</code></td>
+      <td width="160">-</td>
+      <td>Plan and execute a named sprint or development stage across multiple requirements. Use when Codex is asked to run a sprint, execute an MVP/stage plan step by step, convert stage requirements plus technical design into a development plan, or repeatedly implement requirements with dev-pattern, changelog updates, and git commits until the stage is complete.</td>
+    </tr>
   </tbody>
 </table>
 

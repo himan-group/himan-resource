@@ -8,6 +8,7 @@ All notable source-level resource changes are documented in this file.
 
 ### Added
 
+- Published `skill/common-sprint-autopilot@0.0.1`.
 - Published `skill/common-project-tech-design@0.0.1`.
 - Published `skill/common-project-mvp@0.0.1`.
 - Published `skill/common-project-blueprint@0.0.1`.
