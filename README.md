@@ -115,6 +115,27 @@ No command resources yet.
   </tbody>
 </table>
 
+#### GitHub
+
+<table class="himan-resource-table" style="table-layout: fixed; width: 100%;" width="100%">
+  <thead>
+    <tr>
+      <th width="288">Resource</th>
+      <th width="112">Version</th>
+      <th width="160">Score</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="288"><code>github-npm-publish</code></td>
+      <td width="112"><code>0.0.1</code></td>
+      <td width="160">-</td>
+      <td>Design, audit, or maintain a reusable GitHub Actions workflow for publishing npm packages. Use when Codex needs to add or review local package version scripts that update CHANGELOG.md, PR checks before merging to main/master, duplicate npm version/tag prevention, npm Trusted Publishing or NPM_TOKEN publishing, post-merge npm publish jobs, release tags, or release documentation for JavaScript/TypeScript npm packages.</td>
+    </tr>
+  </tbody>
+</table>
+
 #### Himan
 
 <table class="himan-resource-table" style="table-layout: fixed; width: 100%;" width="100%">
