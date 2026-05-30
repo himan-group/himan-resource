@@ -83,6 +83,12 @@ No command resources yet.
       <td>Follow existing repository patterns for code changes and validate them before the final response. Use for nontrivial edits across pages, components, services, tests, build config, generated files, APIs, migrations, or integration code.</td>
     </tr>
     <tr>
+      <td width="288"><code>common-project-startup</code></td>
+      <td width="112"><code>0.0.1</code></td>
+      <td width="160"><code>7/10</code><br><small>已有中大型项目推荐使用</small></td>
+      <td>Onboard coding agents to an existing repository by inspecting structure, commands, rules, generated files, and validation workflow; create or update docs/repository-map.md or legacy docs/codex/repo-map.md plus AGENTS.md. Use when starting work in an unfamiliar project, refreshing project guidance, or syncing local rules into broadly compatible agent instructions.</td>
+    </tr>
+    <tr>
       <td width="288"><code>common-git-commit</code></td>
       <td width="112"><code>0.0.1</code></td>
       <td width="160">-</td>
