@@ -119,6 +119,12 @@ No command resources yet.
       <td>Create or update MVP planning docs from a blueprint and technical design. Use when Codex is asked to split MVP features, define priorities, dependencies, milestones, acceptance criteria, detailed implementation plans, delivery phases, or MVP definition of done.</td>
     </tr>
     <tr>
+      <td width="288"><code>common-project-tech-design</code></td>
+      <td width="112"><code>0.0.1</code></td>
+      <td width="160">-</td>
+      <td>Create or update project technical design docs and bootstrap repository structure from a blueprint. Use when Codex is asked to design architecture, modules, data contracts, storage, CLI/API behavior, file layout, testing strategy, or initialize directories and file conventions for a project.</td>
+    </tr>
+    <tr>
       <td width="288"><code>common-readme-writer</code></td>
       <td width="112"><code>0.0.1</code></td>
       <td width="160">-</td>
