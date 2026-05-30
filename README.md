@@ -96,7 +96,7 @@ No command resources yet.
     </tr>
     <tr>
       <td width="288"><code>common-issue-spec</code></td>
-      <td width="112"><code>0.0.2</code></td>
+      <td width="112"><code>0.0.3</code></td>
       <td width="160">-</td>
       <td>Turn vague issues, product requests, bug reports, or engineering tasks into a concise implementation spec before coding. Use when the request is underspecified, business-heavy, cross-file, or likely to require scope, acceptance criteria, references, assumptions, or validation steps.</td>
     </tr>
